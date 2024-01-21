@@ -8,5 +8,5 @@ export default defineConfig({
 	site: 'https://ReyMyriam.github.io',
 	base: '/LabVeilTech_AstroBlog',
 	integrations: [mdx(), sitemap()],
-	static: '/LabVeilTech_AstroBlog/public',
+	static: {directory: '/LabVeilTech_AstroBlog/public'},
 });
