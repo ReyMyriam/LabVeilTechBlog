@@ -5,8 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://ReyMyriam.github.io',
-	base: '/LabVeilTech_AstroBlog',
+	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
-	static: {directory: '/LabVeilTech_AstroBlog/public'},
 });
