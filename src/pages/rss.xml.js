@@ -12,6 +12,5 @@ export async function GET(context) {
 			...post.data,
 			link: `/${post.slug}/`,
 		})),
-		console.log(context.site);
 	});
 }
