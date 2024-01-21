@@ -7,5 +7,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://reymyriam.github.io',
   	base: '/LabVeilTechBlog',
-	integrations: [mdx(), sitemap()],
 });
